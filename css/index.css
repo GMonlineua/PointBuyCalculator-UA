@@ -1,0 +1,149 @@
+/*---------------------
+--Color:
+background - #52637a
+block - #47566b
+border - #12263B
+text - #eee
+---------------------*/
+
+body{
+  font-family: sans-serif;
+  font-size: 16px;
+
+  color: #eee;
+  background-color: #52637a;
+}
+
+/*---------------------
+--main-conteiner
+---------------------*/
+
+main{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+  background-color: #47566b;
+  border: 1px solid #12263B;
+  border-radius: 10px;
+}
+
+@media (min-width: 1200px){
+  main{
+    width: 90%;
+    max-width: 1400px;
+  }
+}
+
+/*---------------------
+--footer-conteiner
+---------------------*/
+
+header{
+  width: 100%;
+  text-align: center;
+}
+
+header>h1{
+  margin: 10px 0;
+}
+
+nav{
+  display: flex;
+  padding: 10px 20px;
+  background-color: #52637a;
+}
+
+.menu{
+  margin-right: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+article{
+  margin-top: 20px;
+}
+
+.race{
+  display: block;
+  width: 90%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calculator{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.calculator th{
+  border-bottom: 2px solid #fff;
+  font-weight: normal;
+}
+
+.calculator .addcolor{
+  background-color: #47566b;
+}
+
+.calculator td{
+  border-bottom: 1px dotted #dddddd;
+  padding: 10px 0px;
+}
+
+td.attribute{
+  text-align: left;
+  padding-left: 5px;
+}
+
+.calculator input{
+  width: 50px;
+  text-align: center;
+}
+
+.calculator .addcolor input{
+  background-color: #47566b;
+}
+
+td.special{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.calculator td.total{
+  background-color: #64768C;
+}
+
+tr.end>td{
+  border-width: 0px;
+}
+
+.information{
+  padding: 30px 20px;
+}
+
+footer{
+  margin: 20px 0;
+}
+
+
+/* Conteiner */
+.conteiner{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #52637a;
+  border: 1px solid #12263B;
+  border-radius: 10px;
+}
+
+@media (min-width: 1200px){
+  .conteiner{
+    width: 90%;
+    max-width: 1400px;
+  }
+}

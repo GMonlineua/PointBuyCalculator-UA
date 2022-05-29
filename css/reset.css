@@ -1,0 +1,87 @@
+/* Set box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*Basic default settings for the body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/*Remove the standard stylization for all ul and il that have an attribute class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/*Remove margin*/
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/*a elements that do not have a class are reset to default styles*/
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+a{
+  text-decoration: none;
+
+  color: #eee;
+}
+
+/*Reset button styles*/
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/*Reset input styles*/
+input{
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  color: #eee;
+  background-color: #52637a;
+}
+
+/*Making it easy to work with images*/
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/*We indicate an understandable periodicity in the data flow article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/*Inheriting fonts for inputs and buttons*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
